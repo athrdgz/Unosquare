@@ -18,7 +18,7 @@ module.exports = {
         .end();
     },
 
-    'Demo test unosquare 3' : function(browser) {
+    'Demo test unosquare 3' : ''+ function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
@@ -26,4 +26,14 @@ module.exports = {
         .assert.attributeContains("li a[href = '/Services']", 'class', 'nav')
         .end();
     },
+
+    'Demo test unosquare 4' : function(browser) {
+        browser
+        .windowMaximize()
+        .url('https://www.unosquare.com')
+        .waitForElementVisible('body')
+        .assert.attributeContains("li a[href = '/Services']", 'class', 'nav')
+        .assert.attributeEquals("li a[href = '/Services']", 'class', 'nav-link')
+        .end();
+      }
 };
