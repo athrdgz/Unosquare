@@ -1,12 +1,13 @@
 module.exports = {
-    'Demo test unosquare 1' : ''+ function(browser) {
+    '@disabled': false,
+    'Demo test unosquare 1' : function(browser) {
       browser
       .windowMaximize()
       .url('https://www.unosquare.com')
       .waitForElementVisible('body')
       .end();
     },
-    'Demo test unosquare 2' : ''+ function(browser) {
+    'Demo test unosquare 2' : function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
@@ -18,7 +19,7 @@ module.exports = {
         .end();
     },
 
-    'Demo test unosquare 3' : ''+ function(browser) {
+    'Demo test unosquare 3' : function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
@@ -27,7 +28,7 @@ module.exports = {
         .end();
     },
 
-    'Demo test unosquare 4' : ''+ function(browser) {
+    'Demo test unosquare 4' : function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
@@ -37,7 +38,7 @@ module.exports = {
         .end();
     },
 
-    'Demo test unosquare 5' : ''+ function(browser) {
+    'Demo test unosquare 5' : function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
@@ -49,7 +50,7 @@ module.exports = {
         browser.end();
     },
 
-    'Demo test unosquare 6' : ''+ function(browser) {
+    'Demo test unosquare 6' : function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
