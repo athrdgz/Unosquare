@@ -1,4 +1,5 @@
 module.exports = {
+    '@disabled': false,
     'Demo test nightwatchjs 1' : function(browser) {
         browser
         .windowMaximize()
